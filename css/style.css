@@ -1,0 +1,431 @@
+/* --------------------------------------------------------------------
+
+   DEFAULT VALUES:
+
+    Font Family     : Roboto Condensed
+    Greenish Blue   : #34c6d3 (Buttons, Icons, Links, Lines & Backgrounds)
+    Steel Gray      : #41464b (Headings)
+    Blue Bayoux     : #64707b (Paragraphs)
+    White           : #fff  (Text with Black Backgrounds)
+    Black           : #000
+
+
+-----------------------------------------------------------------------*/
+
+/* General CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #41464b
+}
+
+
+/* ========================
+    Buttons (Generic)
+========================== */
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
+
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
+/* ========================
+    PARALALAX (Generic)
+========================== */
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* ========================
+           Home
+========================== */
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url("../img/bg-home.jpg");
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /*    text-align: center;*/
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+
+/* ========================
+       Animate
+========================== */
+
+#home-cover,
+#home-heading,
+#home-heading {
+    animation-duration: .5s;
+}
+
+#home-cover {
+    animation-delay: .1s;
+
+}
+
+#home-heading {
+    animation-delay: .5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+}
+
+/* ========================
+       CONTENT (Generic)
+========================== */
+
+.content-box {
+    padding: 60px 0;
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+
+
+/* ========================
+           About
+========================== */
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/lisa2-cartoon.jpg);
+    background-size: cover;
+    border-left: 200px solid white;
+    border-top: 700px solid transparent;
+}
+
+#about-content-box {
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-desc p {
+    margin-bottom: 30px;
+}
+
+/* ========================
+           Work
+========================== */
+
+.row.no-gutters [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.3);
+    /*    cursor: zoom-in;*/
+}
+
+/* ========================
+       Social ICONS
+========================== */
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 25px;
+}
+
+.icon-gray i {
+    color: #64707b;
+}
+
+.social-icon i:hover {
+    color: #34c6d3;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+
+/* ========================
+       Contact
+========================== */
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-right p,
+#contact-left p{
+    color: #fff;
+    margin-bottom: 30px;
+    padding-right: 70px;
+}
+
+#contact-info {
+    background-image: url(..//img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: #fff;
+}
+
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+/* ========================
+        Footer
+========================== */
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
+}
+
+/* ========================
+    Navigation Bar
+========================== */
+
+.navbar-brand h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 10px;
+    line-height: 0.8;
+}
+
+.navbar {
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+}
+
+.lisazapson-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.lisazapson-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li > a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background: none;
+    color: #34c6d3;
+}
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.lisazapson-top-nav ul.navbar-nav > li.active > a {
+    color: #34c6d3;
+}

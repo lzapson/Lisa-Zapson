@@ -1,0 +1,153 @@
+/* ========================
+ Bootstrap 3 Media Queries
+========================== */
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+
+    /* OK */
+}
+
+/* Medium Devices (landscape tablets & medium desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+
+}
+
+/* small Devises  (Portrait tablets & small desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .lisazapson-nav-wrapper {
+        padding: 0;
+    }
+
+    /*  about -remove diagonal border */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    #about-content-box {
+        width: 100%;
+        height: 400px;
+    }
+
+    /* Footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+
+}
+
+
+/* Extra small Devises  (Landscape Phone & Portrait Tablets) */
+
+@media (max-width: 767px) {
+
+    /* mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .lisazapson-nav-wrapper {
+        padding: 0;
+    }
+
+    /* home heading */
+    #home-heading h3 {
+        font-size: 24px;
+    }
+
+    /* buttons */
+    .btn-general {
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+
+    /*  about -remove diagonal border */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    #about-content-box {
+        width: 100%;
+        height: 400px;
+    }
+
+    /* work */
+    .img-wrapper img {
+        min-width: 100%;
+    }
+
+
+
+    /* Footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+
+    /* Navagation Brand */
+    .navbar-brand h3 {
+        font-size: 22px;
+    }
+
+    /* about */
+    #about-content-box {
+        margin-top: 40px;
+    }
+
+
+
+}
+
+/* Extra small Devises  */
+
+@media (max-width: 480px) {
+
+    /* work */
+    #work {
+        margin-top: 100px;
+    }
+
+}
+
+/* Extra small Devises */
+
+@media (max-width: 320px) {
+
+    /* work */
+    #work {
+        margin-top: 250px;
+    }
+
+}

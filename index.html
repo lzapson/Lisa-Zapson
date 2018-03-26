@@ -1,90 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>About | Lisa Zapson</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- required meta taga -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title -->
+    <title>Lisa Zapson's Portfolio</title>
+    <!-- favicon -->
+    <link rel="shorcut icon" href="img/favicon-32x32.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/fontawesome-all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate/animate.css">
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
 </head>
-<body>
 
-	<!-- nav bar -->
-	<nav class="navbar navbar-default" id="masthead">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div>
-				<a class="navbar-brand" href="index.html" id="logo">Lisa Zapson</a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<nav>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.html">about</a></li>
-						<li><a href="portfolio.html">portfolio</a></li>
-						<!-- <li><a href="contact.html">contact</a></li> -->
-					</ul>
-				</nav>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
 
-	<div class="container">
-		<div class="row">
+    <header>
 
-			<!-- about me -->
-			<div class="col-md-9">
-				<section class="main-section">
-					<div class="row">
-						<h1>About Me</h1>
-					</div>
-					<div class="row">
-						<img src="assets/images/Lisa.jpg" class="auth-image" alt="Lisa Zapson">
+        <nav class="navbar navbar-fixed-top" role="navigation">
 
-						<p>
-							Hi my name is Lisa. I have over 20 years’ experience working in technology. My passion is collaborating with a group of people creating something fantastic. I value simple and practical solutions; I like agile practices because they facilitate an effective approach to working together and delivering software.
-						</p>
-					</div>
-					<div class="row">
-						<p>
-								I am making a full transition to web development, I would like to leverage my experience with JAVA and managing projects with my recent certification from Rutgers full time Web Development Full-Stack Bootcamp. I am proficient in HTML, CSS, JavaScript, Bootstrap, node, SQL and non-SQL db. I especially like developing React applications; it's very intuitive and works amazing!
-						</p>
-					</div>
-				</section>
-			</div>
+            <div class="container-fluid">
 
-			<!-- side bar -->
-			
-			<!-- side bar -->
-			<div class="col-md-3">
-				<section class="sidebar">
-					<div class="row">
-						<div class="col-md-12" id="connect">
-							<h4>Connect with Me</h4>
-							<a href="https://www.linkedin.com/in/lisa-zapson/" target="_blank">
-								<img src="assets/images/linkedin.jpg" class="social" alt="LinkedIn">
-							</a>
-							<a href="https://github.com/lzapson" target="_blank">
-								<img src="assets/images/git.png" class= "social" alt="GitHub">
-							</a>
-							<!-- <img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow"> -->
-						</div>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
+                <div class="lisazapson-nav-wrapper">
 
-	<!-- footer -->
-	<footer class="page-footer blue center-on-small-only">
-		<!--Copyright-->
-		<div class="footer-copyright">
-			<div class="container-fluid">
-				Copyright © 2018 Lisa Zapson 
-			</div>
-		</div>
-		<!--/.Copyright-->
-	</footer>
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                       </button>
+
+                        <a class="navbar-brand" href="#">
+                            <h3> Lisa Zapson </h3>
+                            <!--                            <img src="img/logo.png" alt="Logo">-->
+                        </a>
+                    </div>
+
+                    <div id="vesco-menu" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a class="smooth-scroll" href="#home">Home</a></li>
+                            <li><a class="smooth-scroll" href="#about">About</a></li>
+                            <li><a class="smooth-scroll" href="#work">Portfolio</a></li>
+                            <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Home -->
+    <section id="home">
+        <div id="home-cover" class="bg-parallax animated fadeIn">
+
+            <div id="home-content-box">
+
+                <div id="home-content-box-inner" class="text-center">
+
+                    <div id="home-heading" class="animated zoomIn">
+                        <h3> Hi I'm Lisa, web developer <br> Please Come in and <br> have a look around
+                        </h3>
+                    </div>
+
+                    <div id="home-btn" class="animated zoomIn">
+                        <a class="btn btn-lg btn-general btn-white smooth-scroll" href="#work" role="button" title="Veiw Our Work"> View My Porfolio</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        <!-- about right side with diagonal BG parallax -->
+        <div id="about-bg-diagonal" class="bg-parallax"></div>
+        <!-- about left side with conttent -->
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <div id="about-content-box">
+
+                        <div id="about-content-box-outer">
+
+                            <div id="about-content-box-inner">
+                                <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <h3> About Me </h3>
+                                    <div class="content-title-underline"></div>
+                                </div>
+
+                                <div id="about-desc" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <p>Hi my name is Lisa. I have over 20 years’ experience working in technology. My passion is collaborating with a group of people creating something fantastic. I value simple and practical solutions; I like agile practices because they help facilitate an effective approach to working together and delivering software.
+                                        <br>
+                                        <br> I am making a full transition to web development, I would like to leverage my experience with JAVA and managing projects with my recent certification from Rutgers Web Development Full-Stack Bootcamp. I am proficient in HTML, CSS, JavaScript, Bootstrap, React, Node, SQL and non-SQL db. I look forward to working on some exciting projects creating fantastic web sites; Cheers!</p>
+                                </div>
+
+                                <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <a class="btn btn-lg btn-general btn-blue smooth-scroll" href=#work role="button"> My Portfolio </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3> My Portfolio </h3>
+                <div class="content-title-underline"></div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row no-gutters wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="img-wrapper">
+                            <a href="https://glacial-mountain-71826.herokuapp.com/" target="_blank" title="Quality Donations Here - Free Exchange of Quality Goods">
+                            <img src="img/portfolio/quality-donations-here.png" class="img-responsive" alt="Quality Donations Here">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="img-wrapper">
+                            <a href="https://shrouded-reef-21348.herokuapp.com/" target="_blank" title="Vote Knocker - Political Canvasing Application">
+                            <img src="img/portfolio/vote-knocker.png" class="img-responsive" alt="Vote Knocker">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="img-wrapper">
+                            <a href="https://lzapson.github.io/clicky-game/" target="_blank" title="Clicky Game - A Game of Mind!">
+                            <img src="img/portfolio/clicky-game.png" class="img-responsive" alt="work">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="img-wrapper">
+                            <a href="https://mysterious-inlet-28216.herokuapp.com/" target="_blank" title="Eat Da Burfer - A Game of Stomach!">
+                            <img src="img/portfolio/eat-da-burger.png" class="img-responsive" alt="work">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="img-wrapper">
+                            <a href="https://serene-ocean-74653.herokuapp.com/" target="_blank" title="Pet Finder - Find your ideal Pet Match">
+                            <img src="img/portfolio/pet-finder.png" class="img-responsive" alt="work">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="img-wrapper">
+                            <a href="https://github.com/lzapson/Amazon-like-storefront" target="_blank" title="Internet Retailer - Example of Commmand Line Interface">
+                            <img src="img/portfolio/customer.gif" class="img-responsive" alt="work">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Content Box -->
+    </section>
+
+    <!-- Contact -->
+    <footer>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="contact-left">
+                            <h3> Lisa Zapson </h3>
+                            <p>I believe in <strong>Simple</strong>, <strong>Clean</strong> & <strong>Modern</strong> solutions with <strong>Responsive</strong> approach. Let me help you create something amazing. </p>
+<!--
+                            <div id="contact-info">
+                                <address>
+                                    <strong>Address:</strong><br>
+                                    <p> 32 West Shore Drive<br> Pennington, NJ 08534 </p>
+                                </address>
+                                <div id="phone-email">
+                                    <p>
+                                        <strong>Phone: </strong><span> (973) 768-2699 </span> <br>
+                                        <strong>Email: </strong><span> LisaZapson@ymail.com </span> <br>
+                                    </p>
+                                </div>
+                            </div>
+-->
+                            <ul class="social-list">
+                                <li><a href="https://www.linkedin.com/in/lisa-zapson/" target="_blank" class="social-icon icon-white">
+                                <i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/lzapson" target="_blank" class="social-icon icon-white">
+                                <i class="fab fa-github"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <div id="contact-right">
+                            <h3> Contact Me </h3>
+                            
+                            <div id="contact-info">
+                                <address>
+                                    <strong>Address:</strong><br>
+                                    <p> 32 West Shore Drive<br> Pennington, NJ 08534 </p>
+                                </address>
+                                <div id="phone-email">
+                                    <p>
+                                        <strong>Phone: </strong><span> (973) 768-2699 </span> <br>
+                                        <strong>Email: </strong><span> LisaZapson@ymail.com </span> <br>
+                                    </p>
+                                </div>
+                            </div>
+<!--
+                            <form action="#">
+
+                                <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+                                <input type="text" name="email" placeholder="Email Address" class="form-control">
+                                <textarea rows="5" name="message" placeholder="Message...." class="form-control"></textarea>
+                                <div id="send-btn">
+                                    <a class="btn btn-lg btn-general btn-white" href="#" role="button">SEND</a>
+                                </div>
+                            </form>
+-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="footer-copyrights">
+                            <p>Copyrights &copy; 2018 All Rights Reserved by Lisa Zapson</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <div id="footer-menu">
+                            <ul>
+                                <li><a class="smooth-scroll" href="#home">Home</a>/</li>
+                                <li><a class="smooth-scroll" href="#about">About</a>/</li>
+                                <li><a class="smooth-scroll" href="#work">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll" title="#home" role="button">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Wow JS -->
+    <script src="js/wow/wow.min.js"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Easing -->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
 
 </body>
+
 </html>
