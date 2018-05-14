@@ -429,3 +429,10 @@ form .form-control {
 .lisazapson-top-nav ul.navbar-nav > li.active > a {
     color: #34c6d3;
 }
+
+  /* x-Small devices */
+  @media (max-width:575px) {
+    #about-bg-diagonal {
+        background-image: url(../img/lisa2mobile-cartoon.jpg);
+    }
+}
